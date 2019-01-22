@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		482A5DDD21F5D9740076D3F5 /* Life.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 482A5DDC21F5D9740076D3F5 /* Life.mp3 */; };
+		4896EDC521F1D45C000A3070 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4896EDC421F1D45C000A3070 /* AppDelegate.m */; };
+		4896EDCB21F1D45C000A3070 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4896EDC921F1D45C000A3070 /* Main.storyboard */; };
+		4896EDCD21F1D45D000A3070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4896EDCC21F1D45D000A3070 /* Assets.xcassets */; };
+		4896EDD021F1D45D000A3070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4896EDCE21F1D45D000A3070 /* LaunchScreen.storyboard */; };
+		4896EDD321F1D45D000A3070 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4896EDD221F1D45D000A3070 /* main.m */; };
+		4896EDDB21F1D664000A3070 /* TCRManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4896EDDA21F1D664000A3070 /* TCRManager.m */; };
+		4896EDDE21F1D6DF000A3070 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4896EDDD21F1D6DF000A3070 /* SystemConfiguration.framework */; };
+		4896EDE021F1D6E7000A3070 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4896EDDF21F1D6E7000A3070 /* CoreTelephony.framework */; };
+		4896EDE221F1D6F3000A3070 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4896EDE121F1D6F3000A3070 /* libc++.tbd */; };
+		4896EDE421F1D6FB000A3070 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4896EDE321F1D6FB000A3070 /* libxml2.tbd */; };
+		4896EDE621F1D707000A3070 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4896EDE521F1D707000A3070 /* libz.tbd */; };
+		4896EDE821F1D717000A3070 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4896EDE721F1D717000A3070 /* AudioToolbox.framework */; };
+		4896EDEA21F1D729000A3070 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4896EDE921F1D729000A3070 /* AVFoundation.framework */; };
+		4896EDEC21F1D730000A3070 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4896EDEB21F1D730000A3070 /* libiconv.tbd */; };
+		4896EDEF21F1D755000A3070 /* TCRLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4896EDEE21F1D755000A3070 /* TCRLoginViewController.m */; };
+		4896EDF221F1D76C000A3070 /* TCRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4896EDF121F1D76C000A3070 /* TCRViewController.m */; };
+		4896EDF821F1D7BD000A3070 /* TTProgressHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 4896EDF421F1D7BD000A3070 /* TTProgressHud.m */; };
+		4896EDF921F1D7BD000A3070 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 4896EDF721F1D7BD000A3070 /* UIView+Toast.m */; };
+		4896EDFC21F1D840000A3070 /* TCRUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4896EDFB21F1D840000A3070 /* TCRUser.m */; };
+		4896EDFF21F2BC59000A3070 /* TCRUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4896EDFE21F2BC59000A3070 /* TCRUserCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		482A5DDC21F5D9740076D3F5 /* Life.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Life.mp3; sourceTree = "<group>"; };
+		4896EDC021F1D45C000A3070 /* TTTChatRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTTChatRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4896EDC321F1D45C000A3070 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4896EDC421F1D45C000A3070 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4896EDCA21F1D45C000A3070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4896EDCC21F1D45D000A3070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4896EDCF21F1D45D000A3070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4896EDD121F1D45D000A3070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4896EDD221F1D45D000A3070 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4896EDD921F1D664000A3070 /* TCRManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCRManager.h; sourceTree = "<group>"; };
+		4896EDDA21F1D664000A3070 /* TCRManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCRManager.m; sourceTree = "<group>"; };
+		4896EDDD21F1D6DF000A3070 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4896EDDF21F1D6E7000A3070 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		4896EDE121F1D6F3000A3070 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		4896EDE321F1D6FB000A3070 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		4896EDE521F1D707000A3070 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4896EDE721F1D717000A3070 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4896EDE921F1D729000A3070 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4896EDEB21F1D730000A3070 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		4896EDED21F1D755000A3070 /* TCRLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCRLoginViewController.h; sourceTree = "<group>"; };
+		4896EDEE21F1D755000A3070 /* TCRLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCRLoginViewController.m; sourceTree = "<group>"; };
+		4896EDF021F1D76C000A3070 /* TCRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCRViewController.h; sourceTree = "<group>"; };
+		4896EDF121F1D76C000A3070 /* TCRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCRViewController.m; sourceTree = "<group>"; };
+		4896EDF421F1D7BD000A3070 /* TTProgressHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTProgressHud.m; sourceTree = "<group>"; };
+		4896EDF521F1D7BD000A3070 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		4896EDF621F1D7BD000A3070 /* TTProgressHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTProgressHud.h; sourceTree = "<group>"; };
+		4896EDF721F1D7BD000A3070 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		4896EDFA21F1D840000A3070 /* TCRUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCRUser.h; sourceTree = "<group>"; };
+		4896EDFB21F1D840000A3070 /* TCRUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCRUser.m; sourceTree = "<group>"; };
+		4896EDFD21F2BC59000A3070 /* TCRUserCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCRUserCell.h; sourceTree = "<group>"; };
+		4896EDFE21F2BC59000A3070 /* TCRUserCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCRUserCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4896EDBD21F1D45C000A3070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4896EDEC21F1D730000A3070 /* libiconv.tbd in Frameworks */,
+				4896EDEA21F1D729000A3070 /* AVFoundation.framework in Frameworks */,
+				4896EDE821F1D717000A3070 /* AudioToolbox.framework in Frameworks */,
+				4896EDE621F1D707000A3070 /* libz.tbd in Frameworks */,
+				4896EDE421F1D6FB000A3070 /* libxml2.tbd in Frameworks */,
+				4896EDE221F1D6F3000A3070 /* libc++.tbd in Frameworks */,
+				4896EDE021F1D6E7000A3070 /* CoreTelephony.framework in Frameworks */,
+				4896EDDE21F1D6DF000A3070 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4896EDB721F1D45C000A3070 = {
+			isa = PBXGroup;
+			children = (
+				4896EDC221F1D45C000A3070 /* TTTChatRoom */,
+				4896EDC121F1D45C000A3070 /* Products */,
+				4896EDDC21F1D6DF000A3070 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4896EDC121F1D45C000A3070 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4896EDC021F1D45C000A3070 /* TTTChatRoom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4896EDC221F1D45C000A3070 /* TTTChatRoom */ = {
+			isa = PBXGroup;
+			children = (
+				4896EDC321F1D45C000A3070 /* AppDelegate.h */,
+				4896EDC421F1D45C000A3070 /* AppDelegate.m */,
+				4896EDD921F1D664000A3070 /* TCRManager.h */,
+				4896EDDA21F1D664000A3070 /* TCRManager.m */,
+				4896EDED21F1D755000A3070 /* TCRLoginViewController.h */,
+				4896EDEE21F1D755000A3070 /* TCRLoginViewController.m */,
+				4896EDF021F1D76C000A3070 /* TCRViewController.h */,
+				4896EDF121F1D76C000A3070 /* TCRViewController.m */,
+				482A5DDC21F5D9740076D3F5 /* Life.mp3 */,
+				4896EDFA21F1D840000A3070 /* TCRUser.h */,
+				4896EDFB21F1D840000A3070 /* TCRUser.m */,
+				4896EDFD21F2BC59000A3070 /* TCRUserCell.h */,
+				4896EDFE21F2BC59000A3070 /* TCRUserCell.m */,
+				4896EDF321F1D7BD000A3070 /* TTHelper */,
+				4896EDC921F1D45C000A3070 /* Main.storyboard */,
+				4896EDCC21F1D45D000A3070 /* Assets.xcassets */,
+				4896EDCE21F1D45D000A3070 /* LaunchScreen.storyboard */,
+				4896EDD121F1D45D000A3070 /* Info.plist */,
+				4896EDD221F1D45D000A3070 /* main.m */,
+			);
+			path = TTTChatRoom;
+			sourceTree = "<group>";
+		};
+		4896EDDC21F1D6DF000A3070 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4896EDEB21F1D730000A3070 /* libiconv.tbd */,
+				4896EDE921F1D729000A3070 /* AVFoundation.framework */,
+				4896EDE721F1D717000A3070 /* AudioToolbox.framework */,
+				4896EDE521F1D707000A3070 /* libz.tbd */,
+				4896EDE321F1D6FB000A3070 /* libxml2.tbd */,
+				4896EDE121F1D6F3000A3070 /* libc++.tbd */,
+				4896EDDF21F1D6E7000A3070 /* CoreTelephony.framework */,
+				4896EDDD21F1D6DF000A3070 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4896EDF321F1D7BD000A3070 /* TTHelper */ = {
+			isa = PBXGroup;
+			children = (
+				4896EDF621F1D7BD000A3070 /* TTProgressHud.h */,
+				4896EDF421F1D7BD000A3070 /* TTProgressHud.m */,
+				4896EDF521F1D7BD000A3070 /* UIView+Toast.h */,
+				4896EDF721F1D7BD000A3070 /* UIView+Toast.m */,
+			);
+			path = TTHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4896EDBF21F1D45C000A3070 /* TTTChatRoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4896EDD621F1D45D000A3070 /* Build configuration list for PBXNativeTarget "TTTChatRoom" */;
+			buildPhases = (
+				4896EDBC21F1D45C000A3070 /* Sources */,
+				4896EDBD21F1D45C000A3070 /* Frameworks */,
+				4896EDBE21F1D45C000A3070 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTTChatRoom;
+			productName = TTTChatRoom;
+			productReference = 4896EDC021F1D45C000A3070 /* TTTChatRoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4896EDB821F1D45C000A3070 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Work;
+				TargetAttributes = {
+					4896EDBF21F1D45C000A3070 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 4896EDBB21F1D45C000A3070 /* Build configuration list for PBXProject "TTTChatRoom" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4896EDB721F1D45C000A3070;
+			productRefGroup = 4896EDC121F1D45C000A3070 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4896EDBF21F1D45C000A3070 /* TTTChatRoom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4896EDBE21F1D45C000A3070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4896EDD021F1D45D000A3070 /* LaunchScreen.storyboard in Resources */,
+				4896EDCD21F1D45D000A3070 /* Assets.xcassets in Resources */,
+				482A5DDD21F5D9740076D3F5 /* Life.mp3 in Resources */,
+				4896EDCB21F1D45C000A3070 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4896EDBC21F1D45C000A3070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4896EDD321F1D45D000A3070 /* main.m in Sources */,
+				4896EDC521F1D45C000A3070 /* AppDelegate.m in Sources */,
+				4896EDDB21F1D664000A3070 /* TCRManager.m in Sources */,
+				4896EDF221F1D76C000A3070 /* TCRViewController.m in Sources */,
+				4896EDFC21F1D840000A3070 /* TCRUser.m in Sources */,
+				4896EDF921F1D7BD000A3070 /* UIView+Toast.m in Sources */,
+				4896EDFF21F2BC59000A3070 /* TCRUserCell.m in Sources */,
+				4896EDF821F1D7BD000A3070 /* TTProgressHud.m in Sources */,
+				4896EDEF21F1D755000A3070 /* TCRLoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4896EDC921F1D45C000A3070 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4896EDCA21F1D45C000A3070 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4896EDCE21F1D45D000A3070 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4896EDCF21F1D45D000A3070 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4896EDD421F1D45D000A3070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4896EDD521F1D45D000A3070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4896EDD721F1D45D000A3070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XP66VHL84;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../TTTLib";
+				INFOPLIST_FILE = TTTChatRoom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					TTTRtcEngineVoiceKit,
+					"-framework",
+					TTTPlayerKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.3ttech.TTTChatRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4896EDD821F1D45D000A3070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XP66VHL84;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../TTTLib";
+				INFOPLIST_FILE = TTTChatRoom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					TTTRtcEngineVoiceKit,
+					"-framework",
+					TTTPlayerKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.3ttech.TTTChatRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4896EDBB21F1D45C000A3070 /* Build configuration list for PBXProject "TTTChatRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4896EDD421F1D45D000A3070 /* Debug */,
+				4896EDD521F1D45D000A3070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4896EDD621F1D45D000A3070 /* Build configuration list for PBXNativeTarget "TTTChatRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4896EDD721F1D45D000A3070 /* Debug */,
+				4896EDD821F1D45D000A3070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4896EDB821F1D45C000A3070 /* Project object */;
+}
