@@ -37,9 +37,8 @@ static id _manager;
 {
     self = [super init];
     if (self) {
-        NSString *appID = <#name#>;
-        
-        _rtcEngine = [TTTRtcEngineKit sharedEngineWithAppId:appID delegate:nil];
+        //输入对应的AppId
+        _rtcEngine = [TTTRtcEngineKit sharedEngineWithAppId:<#name#> delegate:nil];
         _me = [[TCRUser alloc] initWithUid:0];
     }
     return self;

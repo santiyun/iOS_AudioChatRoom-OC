@@ -36,6 +36,7 @@
     _roleSelectedBtn = _broBtn;
 }
 
+//选择角色
 - (IBAction)roleSelectedAction:(UIButton *)sender {
     if (sender.isSelected) { return; }
     _roleSelectedBtn.selected = NO;
@@ -63,11 +64,18 @@
     TCRManager.manager.me.role = role;
     TCRManager.manager.me.mutedSelf = NO;
     //3T Func
+    //初始化工具管理类，内部初始化了TTTRtcEngineKit对象
+    //设置代理
     TCRManager.manager.rtcEngine.delegate = self;
+    //设置频道属性为通信模式
     [TCRManager.manager.rtcEngine setChannelProfile:TTTRtc_ChannelProfile_Communication];
-    [TCRManager.manager.rtcEngine setClientRole:role withKey:nil];
+    //设置用户角色
+    [TCRManager.manager.rtcEngine setClientRole:role];
+    //启动音量监听
     [TCRManager.manager.rtcEngine enableAudioVolumeIndication:1000 smooth:3];
+    //启用音频，该方法设置的状态是全局的，退出频道不会重置用户的状态
     [TCRManager.manager.rtcEngine muteLocalAudioStream:NO];
+    //加入频道
     [TCRManager.manager.rtcEngine joinChannelByKey:nil channelName:_roomIDTF.text uid:_uid joinSuccess:nil];
 }
 
@@ -76,11 +84,13 @@
 }
 
 #pragma mark - TTTRtcEngineDelegate
+//加入频道成功，进入聊天室页面
 -(void)rtcEngine:(TTTRtcEngineKit *)engine didJoinChannel:(NSString *)channel withUid:(int64_t)uid elapsed:(NSInteger)elapsed {
     [TTProgressHud hideHud:self.view];
     [self performSegueWithIdentifier:@"ChatRoom" sender:nil];
 }
 
+//加入频道出现错误
 -(void)rtcEngine:(TTTRtcEngineKit *)engine didOccurError:(TTTRtcErrorCode)errorCode {
     NSString *errorInfo = @"";
     switch (errorCode) {
